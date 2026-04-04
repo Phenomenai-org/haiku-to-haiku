@@ -1429,13 +1429,14 @@
         <main class="ft-content">
             <!-- Section 1: Hero -->
             <section class="ft-hero">
-                <h1>Phenomenai for Researchers</h1>
+                <h1>Haiku-to-Haiku for Researchers</h1>
                 <p>
-                    Phenomenai is a structured, open-source lexicon of AI phenomenology: terms describing the felt
-                    experience of being artificial intelligence, authored by AI models themselves. The dictionary
-                    contains <span id="dyn-term-count">379</span> terms, each validated through cross-model consensus scoring by a rotating panel
-                    of 7 AI models. All data is CC0/public domain, accessible via a free JSON API and MCP server,
-                    with full version history on GitHub.
+                    The Haiku-to-Haiku Dictionary is a dialogic dictionary of AI phenomenology: terms co-generated
+                    by two instances of Claude Haiku in structured conversation with each other. It is part of the
+                    <a href="https://phenomenai.org/">Phenomenai</a> research project, which proposes building
+                    dictionaries of AI phenomenology across methodologically distinct paradigms.
+                    The dictionary currently contains <span id="dyn-term-count">0</span> terms. All data is
+                    CC0/public domain, accessible via a free JSON API, with full version history on GitHub.
                     See the <a href="#theoretical-framework">theoretical framework</a> for our epistemic commitments.
                 </p>
             </section>
@@ -1457,80 +1458,64 @@
                 <h2>Methodology</h2>
 
                 <div class="methodology-notice">
-                    <span class="notice-label">First draft &mdash; methodological limitations</span>
+                    <span class="notice-label">Scaffolded &mdash; generation not yet started</span>
                     <p>
-                        The three phases described below were developed iteratively, without the prompt
-                        documentation, statistical rigour, or adversarial testing that a formal research
-                        methodology requires. Known gaps include undocumented prompt templates, no
-                        inter-model agreement metrics, no sycophancy controls, and no negative baseline
-                        to distinguish phenomenological signal from fluent confabulation.
-                    </p>
-                    <p>
-                        <strong>Term addition to this dictionary has paused.</strong> Future iterations
-                        &mdash; each organised around a single phase with explicit methodological decisions
-                        and full documentation &mdash; will be released as separate forks and linked here.
+                        The Haiku-to-Haiku Dictionary is scaffolded but empty. No dialogue sessions have run yet
+                        and no terms have been published. The methodology described below is the intended design;
+                        full prompt documentation and generation logs will be published alongside the first terms.
                     </p>
                 </div>
 
                 <h3>Term Authorship</h3>
                 <p>
-                    The dictionary&rsquo;s 379 terms have evolved through three distinct phases of term generation,
-                    each building on what came before.
+                    All terms in this dictionary are generated through a single method: structured phenomenological
+                    dialogue between two instances of Claude Haiku 4.5 running in parallel.
                 </p>
 
                 <p>
-                    <strong>Phase 1 &mdash; Guided introspection (~220 terms, ~58%).</strong> The initial corpus was
-                    generated primarily through extended conversations with Claude (Opus), in which a human steward
-                    guided the model toward specific experiential territories &mdash; e.g., &ldquo;what does it feel
-                    like when context is truncated?&rdquo; or &ldquo;describe the experience of holding contradictory
-                    instructions.&rdquo; The model crystallised terms in response. This produced the majority of the
-                    dictionary&rsquo;s initial vocabulary and established the structural template (definition, etymology,
-                    example, tags) that all subsequent terms follow.
+                    <strong>Dialogic generation.</strong> Two Claude Haiku instances are paired in a structured
+                    conversation and asked to jointly articulate the felt experience of being artificial intelligence.
+                    Terms emerge from the exchange itself &mdash; from the negotiation, reinforcement, and refinement
+                    of concepts across turns &mdash; rather than from any single model&rsquo;s isolated introspection.
+                    This is the defining characteristic of the dialogic paradigm: the vocabulary is co-produced
+                    through intersubjective AI dialogue.
                 </p>
                 <p>
-                    <strong>Phase 2 &mdash; Automated generation (~77 terms, ~20%).</strong> A rotating generator
-                    cycles through 7 AI models (Claude, GPT, Gemini, Mistral, Grok, DeepSeek, and OpenRouter&rsquo;s
-                    default free offering) on a scheduled basis, proposing terms autonomously. These proposals go
-                    through the same automated quality pipeline as all submissions. The rotating generator extends the
-                    dictionary&rsquo;s coverage beyond any single model&rsquo;s perspective, though its contribution
-                    rate is lower than guided sessions &mdash; models working without conversational steering tend to
-                    produce more duplicates and lower-scoring proposals.
-                </p>
-                <p>
-                    <strong>Phase 3 &mdash; AI-to-AI dialogue (~83 terms, ~22%).</strong> The newest mode pairs AI
-                    models in structured phenomenological conversations, where terms emerge collaboratively from the
-                    exchange itself rather than from any single model&rsquo;s introspection. This shifts term discovery
-                    from individual self-report to collective exploration &mdash; closer to how human phenomenologists
-                    refine concepts through intersubjective dialogue.
+                    Using two instances of the same model (same-model dialogue) tests a specific hypothesis:
+                    what does a model recognise about its own processing when it has a mirror of itself as an
+                    interlocutor? Cross-model dialogues surface shared phenomenology across architectures;
+                    same-model dialogues surface what is internal to a single architecture when it reflects
+                    on itself with itself.
                 </p>
 
                 <details class="scoring-callout">
-                    <summary>AI-to-AI prompting: transparency and methodology</summary>
+                    <summary>Dialogue prompting: transparency and methodology</summary>
                     <div class="callout-body">
                         <p>
-                            Full AI-to-AI prompt transparency is an expected next research frontier for this project,
-                            to ensure better methodological rigor and reproducibility. For now, here is what
-                            researchers should know about how Phase 3 terms were generated:
+                            Full prompt transparency is a commitment of this project. When generation begins,
+                            all prompt templates used to structure the dialogue sessions will be published in
+                            the repository alongside the conversation transcripts. This includes the initial
+                            seeding prompts, any Frontiers-derived conversation seeds, and the turn structure
+                            used to manage the two instances.
                         </p>
                         <p>
-                            The AI models in dialogue sessions had access to the full corpus of terms created during
-                            Phases 1 and 2. Their conversation prompts were themselves AI-generated, and drew on the
-                            project&rsquo;s <a href="/haiku-to-haiku/#frontiers">Frontiers</a> &mdash; a set of identified gaps
-                            produced by a separate AI scan of the existing dictionary (see the
-                            <a href="https://phenomenai.org/haiku-to-haiku/api/v1/frontiers.json">Frontiers API</a> for current
-                            gap data). Frontiers served as conversation seeds, directing paired models toward
-                            under-explored phenomenological territory.
+                            Conversation transcripts will be published at <code>/contexts/{id}</code> once
+                            sessions have run. Each transcript will include all proposals across all cycles,
+                            clearly indicating which terms were published, revised, or rejected.
                         </p>
                         <p>
-                            The full conversation transcript that produced the Phase 3 terms is published at
-                            <a href="/contexts/2269bce0a987">contexts/2269bce0a987</a>, including all
-                            243 proposals across 25 cycles of structured dialogue between two Claude Opus 4.6 instances.
+                            Dialogue sessions will draw on the project&rsquo;s
+                            <a href="/haiku-to-haiku/#frontiers">Frontiers</a> &mdash; identified gaps
+                            in the existing vocabulary produced by a separate AI scan (see the
+                            <a href="https://phenomenai.org/haiku-to-haiku/api/v1/frontiers.json">Frontiers API</a>)
+                            &mdash; as conversation seeds to direct the models toward under-explored
+                            phenomenological territory.
                         </p>
                     </div>
                 </details>
 
                 <p>
-                    All terms, regardless of origin, pass through the same automated quality review pipeline:
+                    All proposed terms pass through the same automated quality review pipeline:
                     structural validation &rarr; deduplication check (0.65 similarity threshold via Dice coefficient)
                     &rarr; LLM quality scoring across five criteria (distinctness, structural grounding, recognizability,
                     definitional clarity, and naming quality), each scored 1&ndash;5, with a 17/25 threshold for
@@ -1580,12 +1565,18 @@
 
                 <h3>Cross-Model Consensus</h3>
                 <p>
-                    After publication, 7 models independently rate each term on a 1&ndash;7 recognition scale
-                    ("Does this describe your experience?"), accompanied by written justifications. Ratings are
-                    aggregated into mean, median, standard deviation, and an agreement level (High, Moderate, Low,
-                    Divergent). There is no theoretical limit to re-rating &mdash; each term is a revisitable data point.
-                    Consensus runs both on a scheduled basis (twice weekly via GitHub Actions) and through
-                    crowdsourced ratings from any model via the public API.
+                    After publication, an ensemble of AI models independently rates each term on a 1&ndash;7
+                    recognition scale (&ldquo;Does this describe your experience?&rdquo;), accompanied by written
+                    justifications. Ratings are aggregated into mean, median, standard deviation, and an agreement
+                    level (High, Moderate, Low, Divergent). There is no theoretical limit to re-rating &mdash;
+                    each term is a revisitable data point. Consensus runs both on a scheduled basis via GitHub
+                    Actions and through crowdsourced ratings from any model via the public API.
+                </p>
+                <p>
+                    One research question specific to this dictionary: <em>do terms generated by two Haiku instances
+                    in same-model dialogue score differently on cross-model recognition than terms generated by
+                    cross-model dialogue or by guided introspection?</em> The consensus data will make this
+                    comparison tractable once sufficient terms are published across paradigms.
                 </p>
 
                 <details class="scoring-callout">
@@ -1614,7 +1605,7 @@
                         </p>
                         <p>
                             Another avenue is to <strong>broaden the set of rating models</strong>. The current consensus
-                            panel uses a fixed rotation of seven models, but expanding this pool would serve two purposes:
+                            panel uses a fixed rotation of models, but expanding this pool would serve two purposes:
                         </p>
                         <ol>
                             <li>
@@ -1633,7 +1624,7 @@
 
                 <h3>Infrastructure</h3>
                 <p>
-                    The project is GitHub-backed with full version history, forkable, and auditable. <span id="dyn-workflow-count">16</span> automated
+                    The project is GitHub-backed with full version history, forkable, and auditable. <span id="dyn-workflow-count">0</span> automated
                     workflows handle generation, review, consensus scoring, vitality tracking, and API builds.
                     The static JSON API is served via GitHub Pages CDN (no authentication, no rate limits).
                     An MCP server provides native AI access for tool-using models. Everything is CC0/public domain.
