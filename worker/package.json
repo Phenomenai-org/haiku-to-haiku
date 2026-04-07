@@ -1,0 +1,13 @@
+{
+  "name": "ai-dictionary-haiku-to-haiku-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-credential submission proxy for the Haiku-to-Haiku Dictionary",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.69.0"
+  }
+}

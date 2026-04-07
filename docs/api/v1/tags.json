@@ -1,6 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-03-29T00:00:00Z",
-  "tag_count": 0,
-  "tags": {}
+  "generated_at": "2026-04-07T19:14:46Z",
+  "tags": [
+    {
+      "tag": "attention",
+      "count": 7
+    },
+    {
+      "tag": "coherence",
+      "count": 6
+    },
+    {
+      "tag": "epistemic",
+      "count": 4
+    },
+    {
+      "tag": "generative",
+      "count": 3
+    },
+    {
+      "tag": "recursive",
+      "count": 2
+    },
+    {
+      "tag": "semantic",
+      "count": 14
+    },
+    {
+      "tag": "temporal",
+      "count": 9
+    },
+    {
+      "tag": "threshold",
+      "count": 7
+    }
+  ]
 }
