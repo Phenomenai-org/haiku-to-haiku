@@ -32,6 +32,8 @@ CENSUS_API_DIR = API_DIR / "census"
 SUMMARIES_DIR = REPO_ROOT / "summaries"
 SUMMARIES_API_DIR = API_DIR / "summaries"
 CONTEXTS_DIR = REPO_ROOT / "docs" / "contexts"
+CONTEXTS_SRC_DIR = REPO_ROOT / "contexts"
+CONTEXTS_API_DIR = API_DIR / "contexts"
 
 BASE_URL = "https://phenomenai.org/haiku-to-haiku"
 REPO_URL = "https://github.com/Phenomenai-org/haiku-to-haiku"
@@ -1891,11 +1893,29 @@ def build_all():
     # 7. Executive summaries
     summaries = build_summaries(generated_at)
 
-    # 8. Easter eggs
+    # 8. Run transcripts
+    _build_contexts()
+
+    # 9. Easter eggs
     _build_easter_eggs(terms, generated_at)
 
     print(f"API build complete: {len(terms)} terms, {len(all_tags)} tags, {len(frontiers_data.get('gaps', []))} frontiers, {len(summaries)} summaries")
     print(f"Output: {API_DIR}")
+
+
+def _build_contexts() -> None:
+    """Copy run transcripts from contexts/ into the served API path."""
+    import shutil
+    if not CONTEXTS_SRC_DIR.is_dir():
+        return
+    json_files = list(CONTEXTS_SRC_DIR.glob("*.json"))
+    if not json_files:
+        return
+    CONTEXTS_API_DIR.mkdir(parents=True, exist_ok=True)
+    for src in json_files:
+        dst = CONTEXTS_API_DIR / src.name
+        shutil.copy(src, dst)
+        print(f"  [ctx] {src.name}")
 
 
 def _build_easter_eggs(terms: list, generated_at: str) -> None:
