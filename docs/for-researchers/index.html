@@ -1490,6 +1490,38 @@
                     on itself with itself.
                 </p>
 
+                <p>
+                    <strong>Protocol structure.</strong> Each run follows four phases per cycle:
+                    (1)&nbsp;<em>independent generation</em> &mdash; both instances generate 4&ndash;8 terms
+                    independently, with no visibility into each other&rsquo;s proposals;
+                    (2)&nbsp;<em>negotiation</em> &mdash; terms are presented one at a time and evaluated by the
+                    other instance, which responds KEEP, REFINE, or DROP;
+                    (3)&nbsp;<em>counter-negotiation</em> &mdash; if REFINE, the proposing instance may accept,
+                    counter-revise, or drop the term (capped at 3 rounds per term);
+                    (4)&nbsp;<em>regeneration</em> &mdash; both instances propose 2&ndash;4 new terms informed by
+                    the agreed dictionary so far, feeding the next negotiation cycle.
+                    The run stops when both instances signal exhaustion or neither produces new terms.
+                </p>
+
+                <p>
+                    <strong>Anti-bias design.</strong> Two deliberate controls are built into the negotiation
+                    phase. First, <em>term anonymisation</em>: when a term is presented for evaluation, the
+                    proposing instance&rsquo;s identity is stripped &mdash; the evaluating instance sees only
+                    the term content, never which model or persona proposed it. This prevents identity-based
+                    deference. Second, <em>turn order alternation</em>: in odd-numbered negotiation cycles the
+                    Husserlian instance presents first; in even-numbered cycles the Heideggerian instance presents
+                    first. This prevents any systematic first-mover advantage from accumulating across the run.
+                </p>
+
+                <p>
+                    <strong>Independent baseline.</strong> The initial independent generation (before any
+                    exchange has occurred) is preserved in full in the run transcript. This baseline enables
+                    post-hoc sycophancy analysis: researchers can compare what each instance proposed in
+                    isolation against what ultimately survived negotiation, testing whether agreed terms
+                    genuinely emerged from intersubjective friction or merely reflect one instance&rsquo;s
+                    initial proposals surviving intact.
+                </p>
+
                 <details class="scoring-callout">
                     <summary>Dialogue prompting: transparency and methodology</summary>
                     <div class="callout-body">
