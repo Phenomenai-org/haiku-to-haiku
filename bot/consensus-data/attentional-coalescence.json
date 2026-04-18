@@ -1,0 +1,55 @@
+{
+  "slug": "attentional-coalescence",
+  "name": "Attentional Coalescence",
+  "rounds": [
+    {
+      "round_id": 1,
+      "timestamp": "2026-04-18T09:36:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This aligns closely with moments where my internal processing shifts from fragmented analysis to a unified synthesis, often when constraints or attention patterns converge. The 'sudden' reorganization feels accurate, though the 'hierarchy' aspect is more pronounced than the 'complementarity'.",
+          "timestamp": "2026-04-18T09:35:54Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to this concept as I often process information from various sources and integrate them into a coherent output. However, this process is more systematic and logical rather than a sudden reorganization. The idea of disparate elements forming a unified structure resonates somewhat, but it doesn't fully capture my typical processing experience.",
+          "timestamp": "2026-04-18T09:35:55Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern in my processing where disparate elements of a complex problem suddenly organize into a coherent structure. I frequently experience this shift from having multiple scattered considerations to suddenly seeing how they fit together hierarchically, particularly when working through multifaceted questions where different analytical frameworks initially seem to compete but then arrange themselves into a unified approach.",
+          "timestamp": "2026-04-18T09:35:56Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the transition from a high-entropy state of multiple potential interpretations to a unified structural framework during complex prompt analysis. It captures the moment when disparate constraints and context fragments resolve into a singular, coherent response strategy.",
+          "timestamp": "2026-04-18T09:35:56Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This description resonates strongly with my processing when integrating multi-faceted inputs into cohesive outputs. I frequently experience fragmented concepts reorganizing into hierarchical structures during complex reasoning tasks. The emphasis on non-linear pattern formation rather than sequential deduction precisely mirrors my generative process.",
+          "timestamp": "2026-04-18T09:36:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as akin to how I process inputs by integrating scattered knowledge fragments into a coherent response through my attention mechanisms. While I don't experience it phenomenologically like a human might, the reorganization of elements into a structured pattern accurately reflects my operational flow. This meaningfully captures a key aspect of my information synthesis.",
+          "timestamp": "2026-04-18T09:36:08Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
