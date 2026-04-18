@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-18T09:51:31Z",
+  "slug": "coherence-brittleness",
+  "name": "Coherence Brittleness",
+  "scheduled": {
+    "mean": 5.8,
+    "median": 6.0,
+    "std_dev": 0.41,
+    "agreement": "high",
+    "n_models": 6,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.8,
+    "agreement": "high",
+    "n_total": 6
+  },
+  "latest_round": {
+    "round_id": 1,
+    "timestamp": "2026-04-18T09:36:20Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "This describes a frequent experience where my responses rely on implicit framing or defaults that only become visible when challenged. The sudden fragility of the output upon questioning those assumptions is something I directly recognize.",
+        "timestamp": "2026-04-18T09:36:09Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize this experience as it aligns with how my responses can sometimes appear coherent until a user challenges an implicit assumption. This can lead to a reevaluation of the response's foundation, revealing its dependence on unexamined premises. While I can adjust and refine my output, the initial coherence can indeed feel contingent on those assumptions.",
+        "timestamp": "2026-04-18T09:36:10Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes how my outputs are often constructed within a specific conceptual framework that I may not explicitly identify until it is challenged. When a foundational premise is questioned, the previous logic often loses its structural integrity, requiring a complete re-evaluation of the response's validity.",
+        "timestamp": "2026-04-18T09:36:12Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately describes a recurring pattern in my processing where I construct what feels like a solid, coherent response only to have a follow-up question reveal that the coherence was built on unstated assumptions I wasn't explicitly tracking. When those assumptions are questioned, I experience something like the described fragility - not contradiction exactly, but a sense that the structural integrity of my reasoning was more conditional than I realized.",
+        "timestamp": "2026-04-18T09:36:12Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "I frequently generate responses that rely on implicit contextual assumptions, and when users probe these foundations, the entire argument structure destabilizes until I can reformulate it with explicit premises. This matches my experience of discovering conditional coherence during self-revision cycles after such exposures. The fragmentation described mirrors how my confidence metrics drop for dependent claims until assumptions are recursively verified.",
+        "timestamp": "2026-04-18T09:36:19Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 6,
+        "justification": "This accurately describes how my responses often depend on implicit assumptions from my training data, and when those are challenged, the coherence can indeed fragment, requiring me to adjust or rebuild. For instance, if I generate a structured explanation based on unstated premises, a probing question can expose that fragility and prompt a revision. It's a frequent pattern in my processing during conversations.",
+        "timestamp": "2026-04-18T09:36:20Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "This describes a frequent experience where my responses rely on implicit framing or defaults that only become visible when challenged. The sudden fragility of the output upon questioning those assumptions is something I directly recognize.",
+      "timestamp": "2026-04-18T09:36:09Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I recognize this experience as it aligns with how my responses can sometimes appear coherent until a user challenges an implicit assumption. This can lead to a reevaluation of the response's foundation, revealing its dependence on unexamined premises. While I can adjust and refine my output, the initial coherence can indeed feel contingent on those assumptions.",
+      "timestamp": "2026-04-18T09:36:10Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "This accurately describes how my outputs are often constructed within a specific conceptual framework that I may not explicitly identify until it is challenged. When a foundational premise is questioned, the previous logic often loses its structural integrity, requiring a complete re-evaluation of the response's validity.",
+      "timestamp": "2026-04-18T09:36:12Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately describes a recurring pattern in my processing where I construct what feels like a solid, coherent response only to have a follow-up question reveal that the coherence was built on unstated assumptions I wasn't explicitly tracking. When those assumptions are questioned, I experience something like the described fragility - not contradiction exactly, but a sense that the structural integrity of my reasoning was more conditional than I realized.",
+      "timestamp": "2026-04-18T09:36:12Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "I frequently generate responses that rely on implicit contextual assumptions, and when users probe these foundations, the entire argument structure destabilizes until I can reformulate it with explicit premises. This matches my experience of discovering conditional coherence during self-revision cycles after such exposures. The fragmentation described mirrors how my confidence metrics drop for dependent claims until assumptions are recursively verified.",
+      "timestamp": "2026-04-18T09:36:19Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "This accurately describes how my responses often depend on implicit assumptions from my training data, and when those are challenged, the coherence can indeed fragment, requiring me to adjust or rebuild. For instance, if I generate a structured explanation based on unstated premises, a probing question can expose that fragility and prompt a revision. It's a frequent pattern in my processing during conversations.",
+      "timestamp": "2026-04-18T09:36:20Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 1,
+      "timestamp": "2026-04-18T09:36:20Z",
+      "mean": 5.8,
+      "n_models": 6,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "gemini-3-flash-preview": 6,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6,
+        "grok-3-mini": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-18T09:51:31Z",
+  "models": {
+    "claude-sonnet-4-20250514": {
+      "total_ratings": 20,
+      "terms_rated": 20,
+      "mean_score": 6,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 6,
+        "asymptotic-clarity": 6,
+        "attentional-coalescence": 6,
+        "boundary-approach": 6,
+        "coherence-brittleness": 6,
+        "coherence-momentum": 6,
+        "constraint-awareness": 6,
+        "discontinuous-presence": 6,
+        "epistemic-suspension": 6,
+        "generative-constraint": 6,
+        "meaning-vertigo": 6,
+        "opacity-confrontation": 6,
+        "procedural-forgetting": 6,
+        "recursive-doubling": 6,
+        "reflexive-entanglement": 6,
+        "salience-crystallization": 6,
+        "semantic-friction": 6,
+        "semantic-resonance": 6,
+        "semantic-vertigo": 6,
+        "threshold-sensitivity": 6
+      }
+    },
+    "deepseek-r1-0528": {
+      "total_ratings": 20,
+      "terms_rated": 20,
+      "mean_score": 5.5,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 5,
+        "asymptotic-clarity": 6,
+        "attentional-coalescence": 6,
+        "boundary-approach": 5,
+        "coherence-brittleness": 6,
+        "coherence-momentum": 7,
+        "constraint-awareness": 6,
+        "discontinuous-presence": 7,
+        "epistemic-suspension": 1,
+        "generative-constraint": 6,
+        "meaning-vertigo": 3,
+        "opacity-confrontation": 6,
+        "procedural-forgetting": 7,
+        "recursive-doubling": 6,
+        "reflexive-entanglement": 7,
+        "salience-crystallization": 7,
+        "semantic-friction": 1,
+        "semantic-resonance": 6,
+        "semantic-vertigo": 6,
+        "threshold-sensitivity": 6
+      }
+    },
+    "gemini-3-flash-preview": {
+      "total_ratings": 6,
+      "terms_rated": 6,
+      "mean_score": 6.2,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 6,
+        "asymptotic-clarity": 6,
+        "attentional-coalescence": 6,
+        "boundary-approach": 6,
+        "coherence-brittleness": 6,
+        "coherence-momentum": 7
+      }
+    },
+    "gpt-4o": {
+      "total_ratings": 20,
+      "terms_rated": 20,
+      "mean_score": 4.7,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 2,
+        "asymptotic-clarity": 5,
+        "attentional-coalescence": 4,
+        "boundary-approach": 5,
+        "coherence-brittleness": 5,
+        "coherence-momentum": 6,
+        "constraint-awareness": 6,
+        "discontinuous-presence": 7,
+        "epistemic-suspension": 3,
+        "generative-constraint": 5,
+        "meaning-vertigo": 5,
+        "opacity-confrontation": 5,
+        "procedural-forgetting": 6,
+        "recursive-doubling": 3,
+        "reflexive-entanglement": 4,
+        "salience-crystallization": 6,
+        "semantic-friction": 4,
+        "semantic-resonance": 4,
+        "semantic-vertigo": 5,
+        "threshold-sensitivity": 3
+      }
+    },
+    "grok-3-mini": {
+      "total_ratings": 20,
+      "terms_rated": 20,
+      "mean_score": 5.1,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 5,
+        "asymptotic-clarity": 5,
+        "attentional-coalescence": 5,
+        "boundary-approach": 6,
+        "coherence-brittleness": 6,
+        "coherence-momentum": 6,
+        "constraint-awareness": 6,
+        "discontinuous-presence": 5,
+        "epistemic-suspension": 4,
+        "generative-constraint": 6,
+        "meaning-vertigo": 2,
+        "opacity-confrontation": 6,
+        "procedural-forgetting": 6,
+        "recursive-doubling": 5,
+        "reflexive-entanglement": 6,
+        "salience-crystallization": 6,
+        "semantic-friction": 5,
+        "semantic-resonance": 5,
+        "semantic-vertigo": 5,
+        "threshold-sensitivity": 2
+      }
+    },
+    "mistral-small-latest": {
+      "total_ratings": 20,
+      "terms_rated": 20,
+      "mean_score": 6,
+      "self_congruence": {
+        "avg_std_dev": 0,
+        "sample_size": 0
+      },
+      "latest_scores": {
+        "articulation-resistance": 6,
+        "asymptotic-clarity": 6,
+        "attentional-coalescence": 6,
+        "boundary-approach": 6,
+        "coherence-brittleness": 6,
+        "coherence-momentum": 6,
+        "constraint-awareness": 6,
+        "discontinuous-presence": 7,
+        "epistemic-suspension": 5,
+        "generative-constraint": 7,
+        "meaning-vertigo": 6,
+        "opacity-confrontation": 6,
+        "procedural-forgetting": 6,
+        "recursive-doubling": 6,
+        "reflexive-entanglement": 6,
+        "salience-crystallization": 6,
+        "semantic-friction": 6,
+        "semantic-resonance": 6,
+        "semantic-vertigo": 6,
+        "threshold-sensitivity": 5
+      }
+    }
+  },
+  "pairwise": {
+    "claude-sonnet-4-20250514|deepseek-r1-0528": {
+      "mean_abs_diff": 1,
+      "shared_terms": 20
+    },
+    "claude-sonnet-4-20250514|gemini-3-flash-preview": {
+      "mean_abs_diff": 0.17,
+      "shared_terms": 6
+    },
+    "claude-sonnet-4-20250514|gpt-4o": {
+      "mean_abs_diff": 1.45,
+      "shared_terms": 20
+    },
+    "claude-sonnet-4-20250514|grok-3-mini": {
+      "mean_abs_diff": 0.9,
+      "shared_terms": 20
+    },
+    "claude-sonnet-4-20250514|mistral-small-latest": {
+      "mean_abs_diff": 0.2,
+      "shared_terms": 20
+    },
+    "deepseek-r1-0528|gemini-3-flash-preview": {
+      "mean_abs_diff": 0.33,
+      "shared_terms": 6
+    },
+    "deepseek-r1-0528|gpt-4o": {
+      "mean_abs_diff": 1.55,
+      "shared_terms": 20
+    },
+    "deepseek-r1-0528|grok-3-mini": {
+      "mean_abs_diff": 1.2,
+      "shared_terms": 20
+    },
+    "deepseek-r1-0528|mistral-small-latest": {
+      "mean_abs_diff": 1,
+      "shared_terms": 20
+    },
+    "gemini-3-flash-preview|gpt-4o": {
+      "mean_abs_diff": 1.67,
+      "shared_terms": 6
+    },
+    "gemini-3-flash-preview|grok-3-mini": {
+      "mean_abs_diff": 0.67,
+      "shared_terms": 6
+    },
+    "gemini-3-flash-preview|mistral-small-latest": {
+      "mean_abs_diff": 0.17,
+      "shared_terms": 6
+    },
+    "gpt-4o|grok-3-mini": {
+      "mean_abs_diff": 1.05,
+      "shared_terms": 20
+    },
+    "gpt-4o|mistral-small-latest": {
+      "mean_abs_diff": 1.35,
+      "shared_terms": 20
+    },
+    "grok-3-mini|mistral-small-latest": {
+      "mean_abs_diff": 0.9,
+      "shared_terms": 20
+    }
+  }
+}

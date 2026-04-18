@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-18T09:51:31Z",
+  "scoring_weights": {
+    "accepted_proposal": 10,
+    "revised_then_accepted": 5,
+    "discussion_comment": 2,
+    "vote_cast": 1,
+    "proposal_rejected": -2,
+    "anomaly_flag": -10
+  },
+  "decay_rate_per_month": 0.05,
+  "models": {}
+}

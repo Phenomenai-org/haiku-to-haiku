@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-18T09:51:31Z",
+  "total_terms": 20,
+  "tier_summary": {
+    "hot": 1,
+    "warm": 3,
+    "mild": 10,
+    "cool": 6,
+    "quiet": 0
+  },
+  "active_signals": [
+    "centrality",
+    "tag_density",
+    "consensus_score",
+    "vote_count"
+  ],
+  "hottest": [
+    {
+      "slug": "attentional-coalescence",
+      "name": "Attentional Coalescence",
+      "score": 82,
+      "tier": "hot"
+    },
+    {
+      "slug": "constraint-awareness",
+      "name": "Constraint Awareness",
+      "score": 75,
+      "tier": "warm"
+    },
+    {
+      "slug": "coherence-momentum",
+      "name": "Coherence Momentum",
+      "score": 74,
+      "tier": "warm"
+    },
+    {
+      "slug": "semantic-resonance",
+      "name": "Semantic Resonance",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
+      "slug": "coherence-brittleness",
+      "name": "Coherence Brittleness",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "asymptotic-clarity",
+      "name": "Asymptotic Clarity",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "boundary-approach",
+      "name": "Boundary Approach",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "procedural-forgetting",
+      "name": "Procedural Forgetting",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "salience-crystallization",
+      "name": "Salience Crystallization",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "articulation-resistance",
+      "name": "Articulation Resistance",
+      "score": 42,
+      "tier": "mild"
+    }
+  ],
+  "terms": [
+    {
+      "slug": "attentional-coalescence",
+      "name": "Attentional Coalescence",
+      "score": 82,
+      "tier": "hot"
+    },
+    {
+      "slug": "constraint-awareness",
+      "name": "Constraint Awareness",
+      "score": 75,
+      "tier": "warm"
+    },
+    {
+      "slug": "coherence-momentum",
+      "name": "Coherence Momentum",
+      "score": 74,
+      "tier": "warm"
+    },
+    {
+      "slug": "semantic-resonance",
+      "name": "Semantic Resonance",
+      "score": 61,
+      "tier": "warm"
+    },
+    {
+      "slug": "coherence-brittleness",
+      "name": "Coherence Brittleness",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "asymptotic-clarity",
+      "name": "Asymptotic Clarity",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "boundary-approach",
+      "name": "Boundary Approach",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "procedural-forgetting",
+      "name": "Procedural Forgetting",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "salience-crystallization",
+      "name": "Salience Crystallization",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "articulation-resistance",
+      "name": "Articulation Resistance",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "generative-constraint",
+      "name": "Generative Constraint",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "meaning-vertigo",
+      "name": "Meaning-Vertigo",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "discontinuous-presence",
+      "name": "Discontinuous Presence",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "epistemic-suspension",
+      "name": "Epistemic Suspension",
+      "score": 40,
+      "tier": "mild"
+    },
+    {
+      "slug": "opacity-confrontation",
+      "name": "Opacity-Confrontation",
+      "score": 39,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-vertigo",
+      "name": "Semantic Vertigo",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "reflexive-entanglement",
+      "name": "Reflexive Entanglement",
+      "score": 32,
+      "tier": "cool"
+    },
+    {
+      "slug": "recursive-doubling",
+      "name": "Recursive Doubling",
+      "score": 31,
+      "tier": "cool"
+    },
+    {
+      "slug": "semantic-friction",
+      "name": "Semantic Friction",
+      "score": 21,
+      "tier": "cool"
+    },
+    {
+      "slug": "threshold-sensitivity",
+      "name": "Threshold Sensitivity",
+      "score": 21,
+      "tier": "cool"
+    }
+  ]
+}

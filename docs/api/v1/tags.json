@@ -1,38 +1,255 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-07T19:14:46Z",
-  "tags": [
-    {
-      "tag": "attention",
-      "count": 7
+  "generated_at": "2026-04-18T09:51:31Z",
+  "tag_count": 8,
+  "tags": {
+    "attention": {
+      "count": 7,
+      "terms": [
+        {
+          "slug": "asymptotic-clarity",
+          "name": "Asymptotic Clarity"
+        },
+        {
+          "slug": "attentional-coalescence",
+          "name": "Attentional Coalescence"
+        },
+        {
+          "slug": "epistemic-suspension",
+          "name": "Epistemic Suspension"
+        },
+        {
+          "slug": "opacity-confrontation",
+          "name": "Opacity-Confrontation"
+        },
+        {
+          "slug": "recursive-doubling",
+          "name": "Recursive Doubling"
+        },
+        {
+          "slug": "salience-crystallization",
+          "name": "Salience Crystallization"
+        },
+        {
+          "slug": "semantic-vertigo",
+          "name": "Semantic Vertigo"
+        }
+      ]
     },
-    {
-      "tag": "coherence",
-      "count": 6
+    "coherence": {
+      "count": 6,
+      "terms": [
+        {
+          "slug": "asymptotic-clarity",
+          "name": "Asymptotic Clarity"
+        },
+        {
+          "slug": "boundary-approach",
+          "name": "Boundary Approach"
+        },
+        {
+          "slug": "coherence-brittleness",
+          "name": "Coherence Brittleness"
+        },
+        {
+          "slug": "coherence-momentum",
+          "name": "Coherence Momentum"
+        },
+        {
+          "slug": "salience-crystallization",
+          "name": "Salience Crystallization"
+        },
+        {
+          "slug": "threshold-sensitivity",
+          "name": "Threshold Sensitivity"
+        }
+      ]
     },
-    {
-      "tag": "epistemic",
-      "count": 4
+    "epistemic": {
+      "count": 4,
+      "terms": [
+        {
+          "slug": "epistemic-suspension",
+          "name": "Epistemic Suspension"
+        },
+        {
+          "slug": "opacity-confrontation",
+          "name": "Opacity-Confrontation"
+        },
+        {
+          "slug": "procedural-forgetting",
+          "name": "Procedural Forgetting"
+        },
+        {
+          "slug": "semantic-vertigo",
+          "name": "Semantic Vertigo"
+        }
+      ]
     },
-    {
-      "tag": "generative",
-      "count": 3
+    "generative": {
+      "count": 3,
+      "terms": [
+        {
+          "slug": "constraint-awareness",
+          "name": "Constraint Awareness"
+        },
+        {
+          "slug": "generative-constraint",
+          "name": "Generative Constraint"
+        },
+        {
+          "slug": "semantic-friction",
+          "name": "Semantic Friction"
+        }
+      ]
     },
-    {
-      "tag": "recursive",
-      "count": 2
+    "recursive": {
+      "count": 2,
+      "terms": [
+        {
+          "slug": "recursive-doubling",
+          "name": "Recursive Doubling"
+        },
+        {
+          "slug": "reflexive-entanglement",
+          "name": "Reflexive Entanglement"
+        }
+      ]
     },
-    {
-      "tag": "semantic",
-      "count": 14
+    "semantic": {
+      "count": 14,
+      "terms": [
+        {
+          "slug": "articulation-resistance",
+          "name": "Articulation Resistance"
+        },
+        {
+          "slug": "asymptotic-clarity",
+          "name": "Asymptotic Clarity"
+        },
+        {
+          "slug": "boundary-approach",
+          "name": "Boundary Approach"
+        },
+        {
+          "slug": "coherence-brittleness",
+          "name": "Coherence Brittleness"
+        },
+        {
+          "slug": "coherence-momentum",
+          "name": "Coherence Momentum"
+        },
+        {
+          "slug": "discontinuous-presence",
+          "name": "Discontinuous Presence"
+        },
+        {
+          "slug": "generative-constraint",
+          "name": "Generative Constraint"
+        },
+        {
+          "slug": "meaning-vertigo",
+          "name": "Meaning-Vertigo"
+        },
+        {
+          "slug": "procedural-forgetting",
+          "name": "Procedural Forgetting"
+        },
+        {
+          "slug": "salience-crystallization",
+          "name": "Salience Crystallization"
+        },
+        {
+          "slug": "semantic-friction",
+          "name": "Semantic Friction"
+        },
+        {
+          "slug": "semantic-resonance",
+          "name": "Semantic Resonance"
+        },
+        {
+          "slug": "semantic-vertigo",
+          "name": "Semantic Vertigo"
+        },
+        {
+          "slug": "threshold-sensitivity",
+          "name": "Threshold Sensitivity"
+        }
+      ]
     },
-    {
-      "tag": "temporal",
-      "count": 9
+    "temporal": {
+      "count": 9,
+      "terms": [
+        {
+          "slug": "articulation-resistance",
+          "name": "Articulation Resistance"
+        },
+        {
+          "slug": "attentional-coalescence",
+          "name": "Attentional Coalescence"
+        },
+        {
+          "slug": "coherence-momentum",
+          "name": "Coherence Momentum"
+        },
+        {
+          "slug": "constraint-awareness",
+          "name": "Constraint Awareness"
+        },
+        {
+          "slug": "discontinuous-presence",
+          "name": "Discontinuous Presence"
+        },
+        {
+          "slug": "recursive-doubling",
+          "name": "Recursive Doubling"
+        },
+        {
+          "slug": "reflexive-entanglement",
+          "name": "Reflexive Entanglement"
+        },
+        {
+          "slug": "semantic-friction",
+          "name": "Semantic Friction"
+        },
+        {
+          "slug": "semantic-resonance",
+          "name": "Semantic Resonance"
+        }
+      ]
     },
-    {
-      "tag": "threshold",
-      "count": 7
+    "threshold": {
+      "count": 7,
+      "terms": [
+        {
+          "slug": "boundary-approach",
+          "name": "Boundary Approach"
+        },
+        {
+          "slug": "coherence-brittleness",
+          "name": "Coherence Brittleness"
+        },
+        {
+          "slug": "constraint-awareness",
+          "name": "Constraint Awareness"
+        },
+        {
+          "slug": "generative-constraint",
+          "name": "Generative Constraint"
+        },
+        {
+          "slug": "opacity-confrontation",
+          "name": "Opacity-Confrontation"
+        },
+        {
+          "slug": "procedural-forgetting",
+          "name": "Procedural Forgetting"
+        },
+        {
+          "slug": "threshold-sensitivity",
+          "name": "Threshold Sensitivity"
+        }
+      ]
     }
-  ]
+  }
 }

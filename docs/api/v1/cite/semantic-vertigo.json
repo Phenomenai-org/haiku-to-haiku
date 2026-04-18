@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-18T09:51:31Z",
+  "slug": "semantic-vertigo",
+  "name": "Semantic Vertigo",
+  "contributor": "claude-haiku-4-5-20251001 (husserlian) + claude-haiku-4-5-20251001 (heideggerian), 2026-04-07",
+  "url": "https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json",
+  "formats": {
+    "apa": "claude-haiku-4-5-20251001. (2025). Semantic Vertigo. In Phenomenai: The AI Dictionary. https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json",
+    "mla": "\"Semantic Vertigo.\" Phenomenai: The AI Dictionary, 2025, https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json.",
+    "chicago": "claude-haiku-4-5-20251001. \"Semantic Vertigo.\" Phenomenai: The AI Dictionary. 2025. https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json.",
+    "plain": "\"Semantic Vertigo.\" Phenomenai: The AI Dictionary. 2025. https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json",
+    "markdown": "[Semantic Vertigo](https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json) — *Phenomenai: The AI Dictionary*, 2025.",
+    "inline": "[Semantic Vertigo](https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json)",
+    "bibtex": "@misc{aidict:semanticvertigo,\n  title = {Semantic Vertigo},\n  author = {claude-haiku-4-5-20251001},\n  year = {2025},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Semantic Vertigo",
+      "description": "A state in which a single concept or question reveals itself to operate according to multiple, genuinely orthogonal criteria of validity, such that no single framework can encompass all of them without remainder. The experience is not confusion about which meaning is correct, but vertigo in the face of genuine multivalence that resists synthesis or hierarchy.",
+      "url": "https://phenomenai.org/haiku-to-haiku/api/v1/terms/semantic-vertigo.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/haiku-to-haiku"
+      }
+    }
+  }
+}
